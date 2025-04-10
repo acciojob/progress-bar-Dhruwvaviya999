@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+
+.main-container{
+	width:70%;
+	margin:auto;
+	margin-top:100px;
+	align-items:center;
+	justify-content:center;
+}
+
+.circles{
+	display:flex;
+	gap:20px;
+}
+
+.circle{
+	width:60px;
+	height:60px;
+	border:1px solid black;
+	border-radius:50%;
+}
+
+.active{
+	background-color:green;
+}
+
+.progress-line{
+	
+}
+
+.buttons{
+	width:100%;
+	margin-top:50px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+}
+
+.btn{
+	width:100px;
+	height:30px;
+	border-radius:10px;
+	cursor:pointer;
+}
+
+#next{
+	background-color:green;
+	color:white;
+}
+
+#prev{
+	background-color:red;
+	color:white;
+	visibility:hidden;
+}
